@@ -290,7 +290,7 @@ class _AddAndEditRecordPageState extends State<AddAndEditRecordPage> {
                         child: Column(
                           children: [
                             Image.asset(
-                              "images/gallery.png",
+                              "images/gallary.png",
                               width: 30,
                               height: 30,
                             ),
