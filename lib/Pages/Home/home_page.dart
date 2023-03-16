@@ -101,7 +101,7 @@ class _HomePageState extends State<HomePage> {
                       width: 10,
                     ),
                     Text(
-                      "Hello ,",
+                      translation(context).hello,
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.black,
@@ -1161,8 +1161,10 @@ class _HomePageState extends State<HomePage> {
               Navigator.pushReplacement(
                   context,
                   PageTransition(
-                      type: PageTransitionType.rightToLeft, 
-                      child: About(id: 1,)));
+                      type: PageTransitionType.rightToLeft,
+                      child: About(
+                        id: 1,
+                      )));
             },
           ),
         ],
