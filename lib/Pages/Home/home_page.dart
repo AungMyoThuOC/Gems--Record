@@ -380,17 +380,17 @@ class _HomePageState extends State<HomePage> {
                                                   const Icon(
                                                     Icons.edit,
                                                     color: Colors.black,
-                                                    size: 15,
+                                                    size: 13,
                                                   ),
                                                   const SizedBox(
-                                                    width: 15,
+                                                    width: 13,
                                                   ),
                                                   Text(
                                                     // "Edit",
                                                     translation(context).edit,
                                                     style: const TextStyle(
                                                       color: Colors.black,
-                                                      fontSize: 15,
+                                                      fontSize: 13,
                                                     ),
                                                   ),
                                                 ],
@@ -413,8 +413,9 @@ class _HomePageState extends State<HomePage> {
                                                       ),
                                                     ),
                                                     content: Container(
-                                                      width: 200,
-                                                      height: 200,
+                                                      // color: Colors.red,
+                                                      width: 300,
+                                                      height: 250,
                                                       child: Column(
                                                         crossAxisAlignment:
                                                             CrossAxisAlignment
@@ -432,7 +433,7 @@ class _HomePageState extends State<HomePage> {
                                                                     .type,
                                                                 style:
                                                                     TextStyle(
-                                                                  fontSize: 10,
+                                                                  fontSize: 9,
                                                                   fontFamily:
                                                                       ubuntuFamily,
                                                                 ),
@@ -446,7 +447,7 @@ class _HomePageState extends State<HomePage> {
                                                                     "record_type"],
                                                                 style:
                                                                     TextStyle(
-                                                                  fontSize: 10,
+                                                                  fontSize: 9,
                                                                   fontFamily:
                                                                       ubuntuFamily,
                                                                 ),
@@ -454,7 +455,7 @@ class _HomePageState extends State<HomePage> {
                                                             ],
                                                           ),
                                                           const SizedBox(
-                                                            height: 10,
+                                                            height: 9,
                                                           ),
                                                           Row(
                                                             mainAxisAlignment:
@@ -468,7 +469,7 @@ class _HomePageState extends State<HomePage> {
                                                                     .from_whom,
                                                                 style:
                                                                     TextStyle(
-                                                                  fontSize: 15,
+                                                                  fontSize: 10,
                                                                   fontFamily:
                                                                       ubuntuFamily,
                                                                 ),
@@ -771,10 +772,10 @@ class _HomePageState extends State<HomePage> {
                                                           const Icon(
                                                             Icons.edit,
                                                             color: Colors.black,
-                                                            size: 15,
+                                                            size: 13,
                                                           ),
                                                           const SizedBox(
-                                                            width: 15,
+                                                            width: 13,
                                                           ),
                                                           Text(
                                                             // "Edit",
@@ -784,7 +785,7 @@ class _HomePageState extends State<HomePage> {
                                                                 const TextStyle(
                                                               color:
                                                                   Colors.black,
-                                                              fontSize: 15,
+                                                              fontSize: 13,
                                                             ),
                                                           ),
                                                         ],
@@ -809,8 +810,9 @@ class _HomePageState extends State<HomePage> {
                                                               ),
                                                             ),
                                                             content: Container(
-                                                              width: 150,
-                                                              height: 150,
+                                                              // color: Colors.red,
+                                                              width: 300,
+                                                              height: 250,
                                                               child: Column(
                                                                 crossAxisAlignment:
                                                                     CrossAxisAlignment
@@ -828,7 +830,7 @@ class _HomePageState extends State<HomePage> {
                                                                         style:
                                                                             TextStyle(
                                                                           fontSize:
-                                                                              15,
+                                                                              13,
                                                                           fontFamily:
                                                                               ubuntuFamily,
                                                                         ),
@@ -844,7 +846,7 @@ class _HomePageState extends State<HomePage> {
                                                                         style:
                                                                             TextStyle(
                                                                           fontSize:
-                                                                              15,
+                                                                              13,
                                                                           fontFamily:
                                                                               ubuntuFamily,
                                                                         ),
@@ -866,7 +868,7 @@ class _HomePageState extends State<HomePage> {
                                                                         style:
                                                                             TextStyle(
                                                                           fontSize:
-                                                                              15,
+                                                                              13,
                                                                           fontFamily:
                                                                               ubuntuFamily,
                                                                         ),
@@ -886,7 +888,7 @@ class _HomePageState extends State<HomePage> {
                                                                           style:
                                                                               TextStyle(
                                                                             fontSize:
-                                                                                15,
+                                                                                13,
                                                                             fontFamily:
                                                                                 ubuntuFamily,
                                                                             overflow:
